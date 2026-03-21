@@ -33,9 +33,10 @@ public class UiWindow : MonoBehaviour
 //mostrar
     public virtual void Show()
     {
+        //Doscale
          _rectTransformCanvasGroup.DOScale(Vector3.one, 0.5f).SetEase(Ease.OutBack).OnComplete(() =>
         {
-            Debug.Log($"finalizo wwindow {windowId}");
+            Debug.Log($"finalizo window {windowId}");
         });
         canvas.gameObject.SetActive(true);
 
@@ -45,9 +46,10 @@ public class UiWindow : MonoBehaviour
 
     public virtual void Hide()
     {
+        //DOScale
         _rectTransformCanvasGroup.DOScale(Vector3.zero, 1f).SetEase(Ease.OutBack).OnComplete(() =>
         {
-            Debug.Log($"finalizo wwindow {windowId}");
+            Debug.Log($"finalizo window {windowId}");
         });
      canvas.gameObject.SetActive(false);
    

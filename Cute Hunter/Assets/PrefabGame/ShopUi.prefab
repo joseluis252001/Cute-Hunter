@@ -1322,6 +1322,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8755353324521350096}
+  - component: {fileID: 5415106503178258821}
   m_Layer: 0
   m_Name: ShopUi
   m_TagString: Untagged
@@ -1345,6 +1346,22 @@ Transform:
   - {fileID: 8146408644004595463}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5415106503178258821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7293576645488244263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb8b92e020a17941b8cc245e7ad196f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ShopUi
+  windowId: ShopUi
+  canvas: {fileID: 7015038887008732446}
+  canvasGroup: {fileID: 3938553994043810976}
+  hideOnStart: 0
 --- !u!1 &7814910227733677298
 GameObject:
   m_ObjectHideFlags: 0
