@@ -47,7 +47,7 @@ public class UiWindow : MonoBehaviour
     public virtual void Hide()
     {
         //DOScale
-        _rectTransformCanvasGroup.DOScale(Vector3.zero, 1f).SetEase(Ease.OutBack).OnComplete(() =>
+        _rectTransformCanvasGroup.DOScale(Vector3.zero, 0.5f).SetEase(Ease.OutBack).OnComplete(() =>
         {
             Debug.Log($"finalizo window {windowId}");
         });
