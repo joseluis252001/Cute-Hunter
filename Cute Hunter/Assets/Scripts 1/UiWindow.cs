@@ -2,6 +2,7 @@
 using UnityEngine;
 using NaughtyAttributes;
 using System;
+using DG.Tweening;
 public class UiWindow : MonoBehaviour
 
 {
@@ -12,6 +13,8 @@ public class UiWindow : MonoBehaviour
     [Header("References")]
     [SerializeField] private Canvas canvas; 
     [SerializeField] private CanvasGroup canvasGroup; 
+    public RectTransform _rectTransformCanvasGroup => canvasGroup.GetComponent<RectTransform>();
+    
 
      [Header("Settings")]
 
@@ -30,14 +33,26 @@ public class UiWindow : MonoBehaviour
 //mostrar
     public virtual void Show()
     {
+         _rectTransformCanvasGroup.DOScale(Vector3.one, 0.5f).SetEase(Ease.OutBack).OnComplete(() =>
+        {
+            Debug.Log($"finalizo wwindow {windowId}");
+        });
         canvas.gameObject.SetActive(true);
+
     }
     //esconder
     [Button]
 
     public virtual void Hide()
     {
+        _rectTransformCanvasGroup.DOScale(Vector3.zero, 1f).SetEase(Ease.OutBack).OnComplete(() =>
+        {
+            Debug.Log($"finalizo wwindow {windowId}");
+        });
      canvas.gameObject.SetActive(false);
+   
     }
+
+
 }
 
