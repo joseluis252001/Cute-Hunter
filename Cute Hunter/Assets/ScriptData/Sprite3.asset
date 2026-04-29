@@ -10,7 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3656568dce5bbec4782c2700ce772bb7, type: 3}
-  m_Name: 1
+  m_Name: Sprite3
   m_EditorClassIdentifier: Assembly-CSharp::ItemtData
   icon: {fileID: 0}
-  itemName: 
+  itemName: Sprite3
+  imageitem: {fileID: 0}

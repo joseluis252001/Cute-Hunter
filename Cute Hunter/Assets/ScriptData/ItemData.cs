@@ -8,11 +8,12 @@ public class ItemtData : ScriptableObject
 {
    [SerializeField] Sprite icon;
    [SerializeField] string itemName;
-   [SerializeField]Image imageitem;
-
-   public Sprite Icon => Icon;
+   public ItemType type;
+   public Sprite Icon => icon;
    public string ItemName => itemName;
-   
+}
 
-
+public enum ItemType
+{
+   Life, Coins
 }

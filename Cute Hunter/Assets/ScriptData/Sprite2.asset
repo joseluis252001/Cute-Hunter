@@ -10,7 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3656568dce5bbec4782c2700ce772bb7, type: 3}
-  m_Name: 3
+  m_Name: Sprite2
   m_EditorClassIdentifier: Assembly-CSharp::ItemtData
-  icon: {fileID: 0}
-  itemName: 
+  icon: {fileID: 21300000, guid: eecf24628391e48549b705c68ae3772c, type: 3}
+  itemName: Coins
+  imageitem: {fileID: 0}
+  type: 1
