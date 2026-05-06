@@ -16,6 +16,7 @@ public class UiManager : MonoBehaviour
                 Destroy(gameObject);
                 return;
             }
+            Instance = this;
         }
     private void Initielize()
     {

@@ -32,6 +32,7 @@ public class ResponsiveManager : MonoBehaviour
                 Destroy(gameObject);
                 return;
             }
+            instance = this;
         }
 
 

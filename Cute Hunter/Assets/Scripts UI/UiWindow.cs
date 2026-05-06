@@ -24,7 +24,7 @@ public class UiWindow : MonoBehaviour
     {
         Initialize();
     }
-    private void Initialize ()
+    public virtual void Initialize ()
     {
         canvas.gameObject.SetActive(!hideOnStart);
     }

@@ -6,3 +6,10 @@ NativeFormatImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 185996
+  packageName: Low Poly Cats
+  packageVersion: 2.2
+  assetPath: Assets/Settings/SampleSceneProfile.asset
+  uploadId: 475103
