@@ -66,6 +66,5 @@ public class PopUpUi : UiWindow
             Debug.Log("Shop no trabajo.");
         }
         shop.Show();
-        Hide();
     }
 }
