@@ -39,7 +39,7 @@ public class UiWindow : MonoBehaviour
             Debug.Log($"finalizo window {windowId}");
         });
         canvas.gameObject.SetActive(true);
-        //overray sobreescri=ibir desde tus hijos github de la clase en la presentacion
+        //overray sobreescribir desde tus hijos github de la clase en la presentacion
 
     }
     //esconder

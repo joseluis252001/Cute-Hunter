@@ -214,7 +214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -539,7 +539,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 993c780fbb2064593b13673f6095e176, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fd3426f5d4a124d98b73515f2d6be18b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -694,7 +694,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 783ec95607c7c4efc9583f9342cb2eb3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 00938d14ebf574730907512a4ea0caf5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1088,7 +1088,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6a1f81d2a91754490a346a73cadf6198, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f302cafba0e7440299d8558624f1628e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1249,7 +1249,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 15395ef065fbe4859b825d998b956168, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 26854ea173bd04ebd910d776f1e47315, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1353,6 +1353,10 @@ MonoBehaviour:
   canvasGroup: {fileID: 3938553994043810976}
   hideOnStart: 0
   buttonPlay: {fileID: 103188812235004122}
+  buttonMusic: {fileID: 7723270874227814855}
+  buttonExit: {fileID: 8807638518857585215}
+  buttonInventory: {fileID: 1510661648822617876}
+  buttonShop: {fileID: 4397680647547528228}
 --- !u!1 &8356751286493609390
 GameObject:
   m_ObjectHideFlags: 0
